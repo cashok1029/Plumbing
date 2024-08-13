@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Orenburg;
+    font-weight: 600;
+    font-style: bold;
+    src:
+        local("Cormorant"),
+        url("../fonts/AnyConv.com__Orenburg-Bold.woff2") format("woff2"),
+        url("../fonts/AnyConv.com__Orenburg-Bold.woff") format("woff"),
+        url("../fonts/AnyConv.com__Orenburg-Bold.eot") format("eot");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: Orenburg;
+    font-weight: 400;
+    font-style: normal;
+    src:
+        local("Cormorant"),
+        url("../fonts/AnyConv.com__Orenburg.woff2") format("woff2"),
+        url("../fonts/AnyConv.com__Orenburg.woff") format("woff"),
+        url("../fonts/AnyConv.com__Orenburg.eot") format("eot");
+    font-display: auto;
+}
+
+
+@font-face {
+    font-family: PT Sans;
+    font-weight: 600;
+    font-style: bold;
+    src:
+        local("Cormorant"),
+        url("../fonts/AnyConv.com__PTSans-Bold.woff2") format("woff2"),
+        url("../fonts/AnyConv.com__PTSans-Bold.woff") format("woff"),
+        url("../fonts/AnyConv.com__PTSans-Bold.eot") format("eot");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-style: normal;
+    src:
+        local("Cormorant"),
+        url("../fonts/AnyConv.com__PTSans-Regular.woff2") format("woff2"),
+        url("../fonts/AnyConv.com__PTSans-Regular.woff") format("woff"),
+        url("../fonts/AnyConv.com__PTSans-Regular.eot") format("eot");
+    font-display: auto;
+}
