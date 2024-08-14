@@ -7,13 +7,13 @@ function Footer() {
     const [isRotate, setIsRotate] = useState(false)
 
     useEffect(() => {
-        const element = document.getElementById('footerButton')
+        const element = document.querySelector('.footerBottom--button')
         if (isRotate) {
             element.style.animation = 'rotateTo 1s ease-in-out forwards';
         } else {
             element.style.animation = 'rotateFrom 1s ease-in-out forwards';
         }
-    },[isRotate])
+    }, [isRotate])
 
     useEffect(() => {
         const element = document.getElementById('myBox');
@@ -32,9 +32,9 @@ function Footer() {
     return (<footer className="footer">
         <div id="myBox" className="box"><FooterTop /></div>
         <div className="footerBottom">
-            <button id='footerButton' onClick={handleClick} className="footerBottom--button"><img src={footerBottom} alt="" /></button>
-        </div>
-    </footer>
+            <button onClick={handleClick} className={`footerBottom--button ${isRotate} ? 'rotate' : '' `}><img src={footerBottom} alt="" /></button>
+    </div>
+    </footer >
     );
 }
 
