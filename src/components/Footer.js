@@ -6,6 +6,7 @@ function Footer() {
   const [isUp, setIsUp] = useState(false);
   const [isRotate, setIsRotate] = useState(false);
 
+
   // useEffect(() => {
   //     const element = document.getElementById('footerButton')
   //     if (isRotate) {
@@ -14,6 +15,7 @@ function Footer() {
   //         element.style.animation = 'rotateFrom 1s ease-in-out forwards';
   //     }
   // },[isRotate])
+
 
   // useEffect(() => {
   //     const element = document.getElementById('myBox');
@@ -46,6 +48,7 @@ function Footer() {
       </div>
     </footer>
   );
+
 }
 
 export default Footer;
