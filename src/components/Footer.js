@@ -19,27 +19,27 @@ function Footer() {
             <div className={`footerTop ${active ? "active" : "inActive"}`}>
                 <img className="footerTop__logo" src={logo} alt="" />
                 <div className="footerTop__about">
-                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />О компании</div>
-                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Сотрудничество</div>
-                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Покупателям</div>
+                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Про компанію</div>
+                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Співробітництво</div>
+                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Покупцям</div>
                 </div>
                 <div className="footerTop__about">
-                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Где купить</div>
-                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Сервисное обслуживание</div>
-                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Контакты</div>
+                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Де придбати</div>
+                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Сервісне обслуговування</div>
+                    <div className="footerTop__about__element"><img className="footer__list--img" src={list} alt="" />Контакти</div>
                 </div>
                 <div className="footerTop__questions">
-                    <div className="footerTop__questions--title">Есть вопросы?</div>
+                    <div className="footerTop__questions--title">Чи є питання?</div>
                     <div className="footerTop__questions__element"><img src={email} alt="" />hello@orangemixers.ru</div>
                     <div className="footerTop__questions__element"><img src={phone} alt="" />+380 (95) 43 23 45</div>
                 </div>
                 <div className="footerTop__social">
-                    <div className="footerTop__social--element">Мы в соцсетях</div>
+                    <div className="footerTop__social--element">Ми у соцмережах</div>
                     <img src={social} alt="" />
                 </div>
                 <div className="footerTop__bottom">
                     <div className="footerTop__bottom--text">© 2019 Orange Mixers</div>
-                    <div className="footerTop__bottom--element">Разработано в bitberry.ru</div>
+                    <div className="footerTop__bottom--element">Розроблено в bitberry.ua</div>
                 </div>
             </div>
             <div className="footerBottom">

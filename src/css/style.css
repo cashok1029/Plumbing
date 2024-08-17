@@ -169,6 +169,10 @@
     overflow: hidden;
 }
 
+.headerImg--slider.spine{
+    animation: slider 20s ease infinite;
+}
+
 .header__price {
     position: absolute;
     font-family: "PT Sans";
@@ -329,7 +333,7 @@
     display: flex;
     justify-content: center;
     border-radius: 20px;
-    z-index: 2;
+    z-index: 5;
 }
 
 .search--title {
@@ -667,6 +671,7 @@
     color: #a5a5a5;
     text-decoration: line-through;
 }
+
 
 .advantages--title {
     text-align: center;
